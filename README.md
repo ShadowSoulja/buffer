@@ -1,2 +1,4 @@
-# buffer
-Buffer overflow lab 
+Buffer overflow: 
+A buffer overflow vulnerability occurs when you give a program too much data. 
+The excess data corrupts nearby space in memory and may alter other data. As a result, the program might report an error or behave differently. Such vulnerabilities are also called buffer overrun.
+Some programming languages are more susceptible to buffer overflow issues, such as C and C++. This is because these are low-level languages that rely on the developer to allocate memory. Most common languages used on the web such as PHP, Java, JavaScript or Python, are much less prone to buffer overflow exploits because they manage memory allocation on behalf of the developer. However, they are not completely safe: some of them allow direct memory manipulation and they often use core functions that are written in C/C++.
